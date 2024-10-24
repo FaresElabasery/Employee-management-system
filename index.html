@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management system </title>
+    <!-- css link  -->
+    <link rel="stylesheet" type="text/css" href="css/Employee.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- fontAwesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+            <a class="navbar-brand nav-brand-title fw-bold" href="#">Control <span class="colored-text">Emp</span> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav align-items-center justify-content-between">
+                    <li class="nav-item">
+                        <a class="nav-link ms-3 active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ms-3" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link ms-3 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Departments
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">All Departments</a></li>
+                            <li><a class="dropdown-item" href="#">Add Departments</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link ms-3 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Employee
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">All Employees</a></li>
+                            <li><a class="dropdown-item" href="#">Add Employee</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link btn btn-main fw-medium" href="#">Create project</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="box col-5">
+                    <p class="fw-semibold ">Welcome Control Emp</p>
+                    <h1 class="fw-bold">Ai-powered employee management built with <span class="text-capitalize d-block colored-text">a human approach.</span></h1>
+                    <div class="demo mt-5">
+                        <a href="#" class="btn btn-main me-5 fw-semibold">Create project</a>
+                        <span class="btn">
+                            <img class="play-btn" src="images/Play button.svg" alt="play button">
+                            <span>View Demo</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="box col-7 text-end">
+                    <img src="images/Art.svg" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- main js file -->
+    <script src="js/script.js"></script>
+    <!-- bootstrap js file -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- fontAwesome js file -->
+    <script src="js/all.min.js"></script>
+</body>
+
+</html>

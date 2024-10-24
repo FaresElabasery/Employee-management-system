@@ -1,0 +1,87 @@
+:root {
+    --main-color: #293FCC;
+    --font-color: #090F4E;
+
+
+}
+
+* {
+    font-family: "Montserrat", serif;
+    user-select: none;
+}
+
+body {
+    font-family: "Montserrat", serif;
+    background-image: linear-gradient(to bottom, #d8dff1 0%, #ffffff 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+/* components  */
+.colored-text {
+    color: var(--main-color);
+}
+
+.btn-main {
+    background-color: #293FCC !important;
+    color: #fff !important;
+    padding: 12px 48px !important;
+    border: 1px solid #6A35FF !important;
+    border-radius: 8px;
+    text-transform: capitalize;
+}
+
+/* start navbar */
+
+.navbar {
+    font-family: "Montserrat", serif;
+    margin-top: 22px;
+    margin-left: 185px;
+    margin-right: 164px;
+    background-color: transparent;
+}
+
+.nav-brand-title {
+    font-size: 44.47px !important;
+}
+
+.nav-brand-title span {
+    font-size: 44.47px !important;
+    color: var(--main-color);
+}
+
+.navbar div ul li a {
+    font-size: 18px;
+    color: var(--font-color);
+}
+
+
+
+/* end navbar */
+/* start hero */
+.hero .row {
+    margin: 53px 60.9px;
+}
+
+.hero .row .box p {
+    font-size: 14px;
+    color: var(--main-color);
+    background-color: #F8FAFF;
+    border-radius: 8px;
+    padding: 8px 32px;
+    width: fit-content;
+}
+
+.hero .row .box h1 {
+    line-height: 160%;
+}
+.hero .row .btn-main{
+    padding: 8px 32px !important;
+}
+.hero .row .play-btn{
+    margin-right: 8px;
+}
+
+
+/* end hero */
