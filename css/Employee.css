@@ -55,7 +55,13 @@ body {
     font-size: 18px;
     color: var(--font-color);
 }
-
+@media (max-width: 992px) {
+    .navbar{
+        /* width: 100%; */
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+}
 
 
 /* end navbar */
